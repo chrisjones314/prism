@@ -1,0 +1,31 @@
+<p><strong>Note:</strong> The C-like component is not really a language on its own,
+	it is the basis of many other components.</p>
+
+<h2>Comments</h2>
+<pre><code>
+@immutable
+class StartupScreenRouteParam extends AFRouteParam {
+    final int clickCount;
+  StartupScreenRouteParam({
+    required this.clickCount,
+  }): super(id: HCScreenID.startup);
+
+  factory StartupScreenRouteParam.create() {
+    return StartupScreenRouteParam(clickCount: 0);
+  }
+
+  StartupScreenRouteParam reviseIncrementClickCount() {
+    return copyWith(clickCount: clickCount+1);
+  }
+
+  StartupScreenRouteParam copyWith({
+    int? clickCount
+  }) {
+    return StartupScreenRouteParam(
+      clickCount: clickCount ?? this.clickCount,
+    );
+  }
+
+}
+</code></pre>
+

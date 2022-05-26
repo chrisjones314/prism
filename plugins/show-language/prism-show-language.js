@@ -30,6 +30,7 @@
 		"js": "JavaScript",
 		"abap": "ABAP",
 		"abnf": "ABNF",
+		"afib": "AFib",
 		"al": "AL",
 		"antlr4": "ANTLR4",
 		"g4": "ANTLR4",

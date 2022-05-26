@@ -17,6 +17,10 @@
 			"option": "default"
 		},
 		"prism-dark": "Dark",
+		"prism-afib": {
+			"title": "Afib",
+			"owner": "afib"
+		},
 		"prism-funky": "Funky",
 		"prism-okaidia": {
 			"title": "Okaidia",
@@ -94,6 +98,11 @@
 		"ada": {
 			"title": "Ada",
 			"owner": "Lucretia"
+		},
+		"afib": {
+			"title": "AFib",
+			"option": "default",
+			"owner": "afib"
 		},
 		"agda": {
 			"title": "Agda",
